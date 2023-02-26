@@ -20,18 +20,18 @@ const select = () => {
   return (
     <div>
       <h1>SELECT PAGE UNDER CONSTRUCTION...</h1>
-      <button onClick={button1}>
+      <button1 onClick={button1}>
         Button
-      </button>
-      <button onClick={button2}>
+      </button1>
+      <button2 onClick={button2}>
         Button
-      </button>
-      <button onClick={button3}>
+      </button2>
+      <button3 onClick={button3}>
         Button
-      </button>
-      <button onClick={button4}>
+      </button3>
+      <button4 onClick={button4}>
         Button
-      </button>
+      </button4>
     </div>
   );
 };
