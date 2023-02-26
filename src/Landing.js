@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Landing() {
   return (
@@ -9,10 +10,12 @@ export default function Landing() {
             flexDirection:"column", 
             justifyContent:"center",
             alignItems:"center"}}>
-            <button style={{textAlign: "center"}}>
-                SSO</button>
-            <button>Gmail</button>
-            <button>AppleID</button>
+            <Link to="/Schedule"><button>
+                SSO</button></Link>
+                <Link to="/Schedule"><button>
+                Gmail</button></Link>
+                <Link to="/Schedule"><button>
+                Email</button></Link>
         </div>
     </div>
   )

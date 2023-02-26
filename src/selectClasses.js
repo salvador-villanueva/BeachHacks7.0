@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 export default function SelectClasses() {
     return (
@@ -9,10 +10,10 @@ export default function SelectClasses() {
                 flexDirection:"column", 
                 justifyContent:"center",
                 alignItems:"center"}}>
-                <button style={{textAlign: "center"}}>CS113: Programming in Java</button>
-                <button>CECS323: Fundamental of Databases</button>
-                <button>CECS328: Algorithms </button>
-                <button>CS329: Theory</button>
+                <Link to="/Survey"><button>CS113: Programming in Java</button></Link>
+                <Link to="/Survey"><button>CECS323: Fundamental of Databases</button></Link>
+                <Link to="/Survey"><button>CECS328: Algorithms</button></Link>
+                <Link to="/Survey"><button>CS329: Computer Science Theory</button></Link>
             </div>
         </div>
     )

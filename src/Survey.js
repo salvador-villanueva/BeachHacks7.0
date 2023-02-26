@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Survey() {
   return (
@@ -25,7 +26,7 @@ function Survey() {
         <br></br>
         <input type="text" />
         <br></br>
-        <button>Submit </button>
+        <Link to="/Submitted"><button>Submit </button></Link>
 
     </div>
   )
