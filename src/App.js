@@ -1,12 +1,12 @@
-
+import React from 'react'
+import SelectClasses from "./selectClasses";
 
 
 
 function App() {
   return (
     <>
-      <Landing />
-      <input type="text" />
+      <SelectClasses />
     </>
   );
 }
