@@ -3,7 +3,7 @@ import React from 'react';
 const select = () => {
   return (
     <div>
-      <h1>Sign Up Successful</h1>
+      <h1>SELECT PAGE UNDER CONSTRUCTION...</h1>
     </div>
   );
 };
