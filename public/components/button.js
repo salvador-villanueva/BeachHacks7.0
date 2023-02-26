@@ -2,14 +2,14 @@ import { StyleSheet, View, Pressable, Text } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export default function Button({ label, theme }) {
-  if (theme === "login") {
+  if (theme === "SSO") {
     return (
       <View
       style={[styles.buttonContainer, { borderWidth: 4, borderColor: "#808080", borderRadius: 18 }]}
       >
         <Pressable
           style={[styles.button, { backgroundColor: "#fff" }]}
-          onPress={() => alert('loging in')}
+          onPress={() => alert('logging in SSO')}
         >
           <FontAwesome
             name="user-circle-o"
@@ -21,14 +21,14 @@ export default function Button({ label, theme }) {
         </Pressable>
     </View>
     );
-  } else if (theme === "newuser") {
+  } else if (theme === "Google") {
     return (
         <View
         style={[styles.buttonContainer, { borderWidth: 4, borderColor: "#808080", borderRadius: 18 }]}
         >
           <Pressable
             style={[styles.button, { backgroundColor: "#fff" }]}
-            onPress={() => alert('creating user...')}
+            onPress={() => alert('logging in google')}
           >
             <FontAwesome
               name="id-card-o"
