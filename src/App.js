@@ -1,12 +1,12 @@
-
-
+import React from "react";
+import Landing from "./Landing"
 
 
 function App() {
   return (
     <>
-      {/* <Landing.js> */}
-
+      <Landing />
+      <input type="text" />
     </>
   );
 }
